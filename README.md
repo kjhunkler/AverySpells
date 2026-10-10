@@ -47,3 +47,11 @@ Edit `site/game.js` to add reviewed word/emoji pairs or modules. Add correspondi
 ## Verification
 
 Node gameplay tests, JavaScript syntax checks, and production build pass. Browser visual QA, device speech, installation, and offline transitions require browser/device verification. Suggested smoke test: play all three modules on each difficulty, retry an answer, earn a companion, refresh, toggle audio, then install and launch offline after the first online load.
+
+## Celebrations and storyteller voices
+
+Each module has six rotating success messages (no immediate repeats), with six quest-completion messages. Short crystal, bubble, and star bursts celebrate answers; a bigger burst celebrates a quest, and a new companion is announced when unlocked. Ambient wizard motion and all celebrations respect reduced-motion preferences and the Magical animations setting.
+
+In Grown-up corner, choose an English storyteller voice and preview it. Automatic selection prefers names labeled Enhanced, Premium, Natural, or Neural when the device exposes them, then familiar English voices. Selection is saved on this device and the list refreshes as voices load. Speech rate is slightly slower than normal rather than stretched. Online-only voices fall back to local English voices while offline. Device/browser voice quality varies; this app does not provide a cloud speech service or guarantee humanlike narration.
+
+Project preference: deploy all completed changes, verify the GitHub Actions result, and include https://kjhunkler.github.io/AverySpells/ in the deployment handoff.
