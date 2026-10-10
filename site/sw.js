@@ -1,5 +1,5 @@
 const CACHE='avery-spells-__VERSION__';
-const ASSETS=['./','./index.html','./style.css','./app.js','./game.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
+const ASSETS=['./','./index.html','./style.css','./app.js','./game.js','./academy.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 // Activate after existing tabs close, so a quest never mixes two app versions.
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('avery-spells-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

@@ -55,3 +55,15 @@ Each module has six rotating success messages (no immediate repeats), with six q
 In Grown-up corner, choose an English storyteller voice and preview it. Automatic selection prefers names labeled Enhanced, Premium, Natural, or Neural when the device exposes them, then familiar English voices. Selection is saved on this device and the list refreshes as voices load. Speech rate is slightly slower than normal rather than stretched. Online-only voices fall back to local English voices while offline. Device/browser voice quality varies; this app does not provide a cloud speech service or guarantee humanlike narration.
 
 Project preference: deploy all completed changes, verify the GitHub Actions result, and include https://kjhunkler.github.io/AverySpells/ in the deployment handoff.
+
+## Build your magical academy
+
+The home screen shows a 15-piece construction project: Crystal Garden, Potion Laboratory, and Wizard Tower, each with five milestones. Completing one five-word quest permanently constructs the next piece in that module. Existing completed quests count toward construction; counts beyond five remain intact while the building stays complete. Stars and earlier star companions are preserved.
+
+The next suggested building is the least complete building, but all games stay available. Each quest shows exactly what it builds. Five crystals fill immediately as words are answered. Quest completion reveals the new structure, lets the learner choose Moonlight, Sunshine, or Enchanted forest colors, and shows the next milestone. Colors can be changed later for individual built pieces.
+
+At five quests, each building welcomes its own companion. Visit the garden to feed a dragon, mix two pretend ingredients with the laboratory frog, or cast flower, snow, and star spells with the tower owl. These are freely available celebration activities, with no stars or evidence scores. Once all 15 pieces are built, the learner can name the academy. All interaction effects respect animation settings.
+
+The Spell Book records module/difficulty/word histories from this update onward; prior detailed word history cannot be reconstructed. One completed appearance is Discovered; two or more appearances are Practicing; at least two first-try answers in separate quests without the displayed first-letter hint are Used independently. A retry marks that appearance as supported, and Apprentice spelling always counts as supported because its first-letter hint is shown. These labels describe in-app practice, not demonstrated mastery outside the game. Two words with supported histories may return in a quest while independent evidence is still below two. Progress and rewards never penalize mistakes.
+
+New tests cover old-save migration, capped construction, distinct-quest evidence, supported-word review, and safe persistent customization. Device/browser visual verification remains a separate check.
