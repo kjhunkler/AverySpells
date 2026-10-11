@@ -2,7 +2,7 @@
 
 A magic-themed, installable spelling PWA for a kindergarten learner. No frameworks, dependencies, accounts, analytics, or backend.
 
-## Three adventures
+## Six adventures
 
 - **Sound Crystals:** choose the beginning letter of a spoken picture word. Inspired by the Beginning Sounds Search worksheet (house, door, kangaroo, bee, vase, lemon, elephant, leaf, kite, glove, ball). The original photo is not published.
 - **Letter Potions:** fill a missing letter in a pictured word.
@@ -67,3 +67,11 @@ At five quests, each building welcomes its own companion. Visit the garden to fe
 The Spell Book records module/difficulty/word histories from this update onward; prior detailed word history cannot be reconstructed. One completed appearance is Discovered; two or more appearances are Practicing; at least two first-try answers in separate quests without the displayed first-letter hint are Used independently. A retry marks that appearance as supported, and Apprentice spelling always counts as supported because its first-letter hint is shown. These labels describe in-app practice, not demonstrated mastery outside the game. Two words with supported histories may return in a quest while independent evidence is still below two. Progress and rewards never penalize mistakes.
 
 New tests cover old-save migration, capped construction, distinct-quest evidence, supported-word review, and safe persistent customization. Device/browser visual verification remains a separate check.
+
+## Modules 4–6 and academy expansion
+
+4. **Ending Echoes**: listen to a word and identify its last letter. Uses regular final-letter sounds, excluding dialect-sensitive final r from its word bank. Build the Echo Cavern and unlock a bat that echoes silver bells.
+5. **Rhyme Runes**: select a pictured/spoken word that rhymes with the prompt. Separate Hear buttons let a child listen without selecting an answer. Uses reviewed short-vowel pairs such as cat/hat, hen/pen, and dog/log. Build the Rhyme Meadow and unlock the musical fox.
+6. **Word Families**: complete a three-letter word by choosing its written ending, such as c + at. Build the Word Treehouse and unlock the squirrel's acorn activity.
+
+Each new module uses five-word quests, two/three/four answer choices, gentle retries, word history, rotating celebrations, and five customizable building stages. Ending Echoes adds four-letter words at Archmage level; rhyme and family games retain regular three-letter words and increase choice count. The project now totals 30 pieces across six buildings. Existing stars, quest totals, academy name, decorations, and word histories migrate unchanged; new buildings start at zero. Previously completed buildings stay complete. The earlier 15-piece milestone is the original academy; the expanded academy completes at 30 pieces.
